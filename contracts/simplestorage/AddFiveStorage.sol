@@ -2,7 +2,7 @@
 // Ethereum, Polygon, Arbitrum, Optimism, Zksync
 
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.18; // Stating our version of solidity - The ^ says the contract would work wit 0.8.18 or higher.
+pragma solidity ^0.8.18;
 
 import {SimpleStorage} from "./SimpleStorage.sol";
 
