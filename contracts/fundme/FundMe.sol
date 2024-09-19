@@ -9,10 +9,16 @@ error NotOwner();
 error NotEnoughETH();
 
 /**
+
+ */
+/**
+ * @title The FundMe Contract - Solidity 101
  * This contract will do the following:
  * - Get funds
  * - Withdraw funds
  * - Set minimum funding value in USD
+ * @author Soumil Vavikar
+ * @notice NA
  */
 contract FundMe {
     // This line tells that the price converter library has to be used for uint256 type of variables.

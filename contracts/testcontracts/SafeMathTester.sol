@@ -3,6 +3,11 @@
 pragma solidity ^0.8.18; 
 // pragma solidity ^0.6.0; 
 
+/**
+ * @title Testing The Math library between Solidity versions
+ * @author Soumil Vavikar
+ * @notice NA
+ */
 contract SafeMathTester {
     uint8 public bigNumber = 255;
 

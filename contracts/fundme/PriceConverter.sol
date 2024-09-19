@@ -6,6 +6,12 @@ import {AggregatorV3Interface} from "@chainlink/contracts/src/v0.8/shared/interf
 
 // Why is this a library and not abstract?
 // Why not an interface?
+
+/**
+ * @title The PriceConverter Library
+ * @author Soumil Vavikar
+ * @notice NA
+ */
 library PriceConverter {
     // We could make this public, but then we'd have to deploy it
   /**
