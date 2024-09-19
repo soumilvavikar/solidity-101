@@ -7,9 +7,12 @@ Video 1: https://www.youtube.com/watch?v=umepbfKp5rI&list=PLiqQRSQ9Yuluomeit82FO
 ### Reference GitHub Repo
 https://github.com/Cyfrin/foundry-full-course-cu
 
-Lesson 2: https://github.com/cyfrin/remix-simple-storage-cu 
-Lesson 3: https://github.com/cyfrin/remix-storage-factory-cu 
-Lesson 4: https://github.com/Cyfrin/remix-fund-me-cu 
+#### Lesson 2
+https://github.com/cyfrin/remix-simple-storage-cu 
+#### Lesson 3
+https://github.com/cyfrin/remix-storage-factory-cu 
+#### Lesson 4
+https://github.com/Cyfrin/remix-fund-me-cu 
 
 ### Sepolia TestNet Etherscan 
 https://sepolia.etherscan.io/txs 
