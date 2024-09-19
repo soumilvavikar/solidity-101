@@ -68,7 +68,8 @@ contract SimpleStorage {
     }
 
     // This function is used to store the favoriteNumber
-    function store(uint256 _favoriteNumber) public {
+    // The function will virtual keyword can be overriden. Without this keyword we can't override it. 
+    function store(uint256 _favoriteNumber) public virtual {
         myFavoriteNumber = _favoriteNumber;
         // The more work we do in the functions the more gas it takes to execute the function.
     }
@@ -80,7 +81,7 @@ contract SimpleStorage {
      */
 
     // This function is to return the favorite number.
-    function retreive() public view returns (uint256) {
+    function retrieve() public view returns (uint256) {
         return myFavoriteNumber;
     }
     // Each contract deployed on the blockchain has a address - 0xd9145CCE52D386f254917e481eB44e9943F39138

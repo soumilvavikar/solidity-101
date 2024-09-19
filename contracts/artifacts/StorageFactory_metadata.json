@@ -1,0 +1,140 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "createSimpleStorageContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "sfGet",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "sfStore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "simpleStorage",
+				"outputs": [
+					{
+						"internalType": "contract SimpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "simpleStorageArray",
+				"outputs": [
+					{
+						"internalType": "contract SimpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"createSimpleStorageContract()": {
+					"notice": "This function will create the simple storage contract"
+				},
+				"sfGet(uint256)": {
+					"notice": "This function will retireve the value from the contract and return it"
+				},
+				"sfStore(uint256,uint256)": {
+					"notice": "This function will call simple storage contract and store the number"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StorageFactory.sol": "StorageFactory"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SimpleStorage.sol": {
+			"keccak256": "0xd834da23224e95b67b5260dd78c7d87eec0715a51bc1648ff5c9a43df6ce7c87",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://46974e7711663b884e6eb05e5a24553fb458a7bc2e06c0ce3a0f57248e1a7778",
+				"dweb:/ipfs/QmYjH9P7iNp3kx7rJiQP4oNYoHdNh7rN71RpThrb7WSugW"
+			]
+		},
+		"contracts/StorageFactory.sol": {
+			"keccak256": "0x957de4d2c3a64c33be394c20665d4bb0e862dbf92e2e58f41c2cb32f5e0e4773",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0bb936b9de415cd6389d9e6d65f9f0ca947e46e5d8cd413d67caf7912ca33abb",
+				"dweb:/ipfs/QmSeJQS2U8ab4k3XC8CsCfvRBLD8GuKGrkvSyfXkHkcjUj"
+			]
+		}
+	},
+	"version": 1
+}

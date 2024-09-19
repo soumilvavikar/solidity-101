@@ -80,10 +80,23 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "sayHello",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_favoriteNumber",
+						"name": "_newNumber",
 						"type": "uint256"
 					}
 				],
@@ -100,13 +113,21 @@
 		},
 		"userdoc": {
 			"kind": "user",
-			"methods": {},
+			"methods": {
+				"sayHello()": {
+					"notice": "Dummy method to prove inheritance"
+				},
+				"store(uint256)": {
+					"notice": "This is example of how to use override This method will override the store method and add 5 to the incoming number before storing. "
+				}
+			},
+			"notice": "Inheritance example where this contract will inherit from SimpleStorage",
 			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SimpleStorage.sol": "SimpleStorage"
+			"contracts/AddFiveStorage.sol": "AddFiveStorage"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -120,6 +141,14 @@
 		"remappings": []
 	},
 	"sources": {
+		"contracts/AddFiveStorage.sol": {
+			"keccak256": "0x91d53bf3b0594de9c27d98810a9587408837bbcbf28da3f4e4f4fa857e4cd4c4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://65621298f235e9d1c37632e8168771088312380ce8271d1bf2ee5652439ac81d",
+				"dweb:/ipfs/QmUQAtYUpaHmZXeejHvGgRuCaz5fPLobtCafXSrqW15BUm"
+			]
+		},
 		"contracts/SimpleStorage.sol": {
 			"keccak256": "0xd788767275b160cf08e5fa9c8ae649fc6be6873d9759d4afe7d7836abd7e09ea",
 			"license": "MIT",
