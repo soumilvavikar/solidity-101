@@ -7,7 +7,12 @@ pragma solidity ^0.8.18;
 import {SimpleStorage} from "./SimpleStorage.sol";
 
 /**
- * Inheritance example where this contract will inherit from SimpleStorage
+ * 
+ */
+/**
+ * @title Inheritance example where this contract will inherit from SimpleStorage - Solidity 101
+ * @author Soumil Vavikar
+ * @notice NA
  */
 contract AddFiveStorage is SimpleStorage {
     /**

@@ -3,9 +3,13 @@
 
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.18; // Stating our version of solidity - The ^ says the contract would work wit 0.8.18 or higher.
-
 // pragma solidity >=0.8.18 <0.9.0 - States version range.
 
+/**
+ * @title Simple Storage Contract - Solidity 101
+ * @author Soumil Vavikar
+ * @notice NA
+ */
 contract SimpleStorage {
     /*
      * Visibility Specifiers for Types and Functions

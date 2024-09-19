@@ -8,6 +8,12 @@ pragma solidity ^0.8.18;
 import {SimpleStorage} from "./SimpleStorage.sol";
 
 // We can have more than 1 contract in the same file, BUT it is not a good practice.
+
+/**
+ * @title Storage Factory Contract - Solidity 101
+ * @author Soumil Vavikar
+ * @notice NA
+ */
 contract StorageFactory {
     // Defining a contract
     SimpleStorage public simpleStorage;
